@@ -1,0 +1,221 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    animation-name: change-op;
+    animation-duration: 1.5s;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+    padding-bottom: 10px;
+    animation-name: change-op;
+    animation-duration: 5s;
+}
+
+h2 {
+    color: #2c5252;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Merriweather', sans-serif;
+    
+}
+
+.topInfo {
+    animation-name: change-op;
+    animation-duration: 6s;
+}
+
+a {
+    color: #023e41;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    animation-name: change-op;
+    animation-duration: 6s;
+}
+
+a:hover {
+    color: #14f3f3;
+}
+p {
+    line-height: 2;
+    animation-name: animation-top-cloud;
+    animation-duration: 6s;
+
+}
+
+hr {
+    border: dotted lightgreen 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+    animation-name: change-op;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.top-container {
+    background-color: rgb(214, 248, 214);
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    font-family: "Merriweather";
+    font-size: 1.0rem;
+    color: #40514E;
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30;
+    margin: auto;
+}
+
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    width: 30%;
+    height: auto;
+    animation-name: animation-top-cloud;
+    animation-duration: 4s;
+}
+
+ .bottom-cloud {
+    position: absolute;
+    left: 75px;
+    bottom: 400px;
+    width: 30%;
+    height: auto;
+    animation-name: animation-top-cloud;
+    animation-duration: 4s;
+}
+
+.LandScape-image {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    animation-name: change-op;
+    animation-duration: 6s;
+
+}
+
+.programming-img{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    animation-name: animation-bottom-cloud;
+    animation-duration: 6s;
+}
+
+.gamedevelopment-img{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+    animation-name: animation-bottom-cloud;
+    animation-duration: 6s;
+}
+.projects-img{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    padding: 20px 20px 20px 20px;
+    animation-name: animation-bottom-cloud;
+    animation-duration: 6s;
+}
+
+/* button  */
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #0d7c80);
+    background-image: -moz-linear-gradient(top, #11cdd4, #0d7c80);
+    background-image: -ms-linear-gradient(top, #11cdd4, #0d7c80);
+    background-image: -o-linear-gradient(top, #11cdd4, #0d7c80);
+    background-image: linear-gradient(to bottom, #11cdd4, #0d7c80);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #0e6a9c;
+  background-image: -webkit-linear-gradient(top, #0e6a9c, #3498db);
+  background-image: -moz-linear-gradient(top, #0e6a9c, #3498db);
+  background-image: -ms-linear-gradient(top, #0e6a9c, #3498db);
+  background-image: -o-linear-gradient(top, #0e6a9c, #3498db);
+  background-image: linear-gradient(top bottom, #0e6a9c, #3498db);
+  text-decoration: none;
+  }
+
+  /* Animations*/
+@keyframes change-op {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes animation-top-cloud {
+    0% {
+        opacity: 0;
+        right: -500px;
+    }
+
+}
+
+@keyframes animation-bottom-cloud {
+    0% {
+        opacity: 0;
+        left: -500px;
+    }
+}
